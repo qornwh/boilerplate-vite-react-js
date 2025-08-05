@@ -57,5 +57,3 @@ node --version
 
 ![6번](./image%20(6).png)
 ```
-
-필요시 `README.md` 파일에 붙여넣으면 바로 사용 가능합니다.

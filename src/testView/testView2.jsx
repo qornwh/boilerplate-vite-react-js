@@ -12,7 +12,7 @@ const TestView2 = ({}) => {
   const { isPending, error, data } = useQuery({
     queryKey: ['repoData'],
     queryFn: async () => {
-      const res = await axios.get('/api/api/hello');
+      const res = await axios.get(`${import.meta.env.VITE_API_BASE}/api/hello`);
       console.log(res.data);
       return res.data;
     },

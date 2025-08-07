@@ -14,6 +14,8 @@ export default defineConfig({
   ],
   server: {
     host: true,
+    port: 5173, // 해당 포트는 vite 기본포트(이 옵션 없어도 같음)
+    allowedHosts: ['.trycloudflare.com'],
     proxy: {
       '/api': {
         target: 'http://localhost:12345',

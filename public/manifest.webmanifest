@@ -1,6 +1,6 @@
 {
-  "name": "My Awesome PWA",
-  "short_name": "AwesomeApp",
+  "name": "테스트용 PWA",
+  "short_name": "테스트용",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
